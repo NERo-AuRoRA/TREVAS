@@ -1,0 +1,1000 @@
+   31  rostopic echo /RosAria/sonar
+   32  rosnode list
+   33  rostopic list
+   34  rostopic info /RosAria/cmd_vel 
+   35  rostopic info /RosAria/pose 
+   36  rostopic echo /RosAria/pose 
+   37  rosnode list
+   38  rostopic info /RosAria/pose 
+   39  rostopic pub -1 /RosAria/cmd_vel geometry_msgs/Twist '[0.1, 0.0, 0.0]' '[0.0, 0.0, 0.0]'
+   40  rostopic echo /RosAria/pose 
+   41  rostopic list
+   42  rosnode list
+   43  rostopic info /RosAria/pose
+   44  ifconfig
+   45  rosnode list
+   46  rostopic info /RosAria/pose
+   47  rosnode list
+   48  rostopic info /RosAria/pose
+   49  rosnode list
+   50  rosnode ping /matlab_global_node_95597 
+   51  rosnode list
+   52  rosnode ping /RosAria
+   53  rostopic info /RosAria/pose
+   54  rosnode list
+   55  rosnode ping /matlab_global_node_47922 
+   56  rosnode list
+   57  rosnode ping /matlab_global_node_36570 
+   58  rosnode list
+   59  export ROS_MASTER_URI=http://192.168.0.148:11311
+   60  rosrun rosaria RosAria
+   61  sudo ufw status numbered
+   62  sudo nano /etc/hosts
+   63  ping www.google.com
+   64  roscore
+   65  killallcore
+   66  killall -9 roscore
+   67  clear
+   68  export ROS_MASTER_URI=http://192.168.0.148:11311
+   69  roscore
+   70  reboot
+   71  sudo reboot
+   72  sudo nano /etc/hosts
+   73  rosnode list
+   74  rosnode ping /matlab_global_node_16203 
+   75  sudo nano /etc/hosts
+   76  rosnode list
+   77  systemctl is-active avahi-daemon.service
+   78  systemctl restart avahi-daemon.service
+   79  rosnode list
+   80  rosnode ping /matlab_global_node_81714 
+   81  rosnode list
+   82  rosnode ping /Matlab 
+   83  rosrun rosaria RosAria
+   84  rosnode list
+   85  rostopic list
+   86  /RosAria/pose/RosAria/pose
+   87  rostopic info /RosAria/pose 
+   88  killall -9 roscore
+   89  sudo nano /etc/hosts
+   90  nano /etc/hosts
+   91  sudo nano /etc/hosts
+   92  killall -9 roscore
+   93  export ROS_MASTER_URI=http://raspberry:11311
+   94  export ROS_IP=raspberry
+   95  roscore
+   96  export ROS_MASTER_URI=http://ubiquityrobot:11311
+   97  export ROS_IP=ubiquityrobot
+   98  roscore 
+   99  export ROS_MASTER_URI=http://ubuntuRasp:11311
+  100  export ROS_IP=ubuntuRasp
+  101  rosinit
+  102  roscore
+  103  export ROS_IP=ubiquityrobot.local
+  104  export ROS_MASTER_URI=http://ubiquityrobot.local:11311
+  105  roscore
+  106  clear
+  107  export ROS_MASTER_URI=http://192.168.0.139:11311
+  108  export ROS_IP=192.168.0.148
+  109  rosrun rosaria RosAria
+  110  source /opt/ros/kinetic/setup.bash
+  111  rosrun rosaria RosAria
+  112  source /opt/ros/kinetic/setup.bash
+  113  ls
+  114  cd catkin_ws/
+  115  cd
+  116  . ~/catkin_ws/devel/setup.bash
+  117  rosrun rosaria RosAria
+  118  rosnode list
+  119  rosrun rosaria RosAria
+  120  export ROS_MASTER=http://192.168.0.148:11311
+  121  export ROS_IP=192.168.0.148
+  122  roscore
+  123  export ROS_MASTER_URI=http://192.168.0.148:11311
+  124  export ROS_IP=192.168.0.148
+  125  roscore
+  126  rosnode list
+  127  export ROS_MASTER_URI=http://192.168.0.148:11311
+  128  export ROS_IP=192.168.0.148
+  129  sudo nano ~/ .bashrc
+  130  rostopic list /RosAria/cmd_vel
+  131  rostopic info /RosAria/cmd_vel
+  132  rostopic info /RosAria/pose 
+  133  rostopic info /RosAria/pose
+  134  rosnode list
+  135  rosnode list
+  136  clear
+  137  rosrun rosaria RosAria
+  138  roscore
+  139  rosnode list
+  140  rosrun rosaria RosAria
+  141  rosnode list
+  142  roscore
+  143  ifconfig
+  144  ping www.google.com
+  145  rosnode list
+  146  rostopic list
+  147  rostopic echo /cloud
+  148  rosnode list
+  149  rostopic list
+  150  rostopic info /cloud
+  151  nc -z -v -w5 169.254.105.61 2112
+  152  nc -z -v -w5 169.254.105.61:2112
+  153  ifconfig
+  154  nc -z -v -w5 169.254.105.61 2112
+  155  sudo nano /etc/network/interfaces
+  156  sudo /etc/init.d/networking restart
+  157  sudo ifdown eth0
+  158  ifconfig -a
+  159  ip link
+  160  ping www.google.com
+  161  sudo nano /etc/dhcpcd.conf
+  162  sudo nano /etc/network/interfaces
+  163  more interfaces
+  164  ifdown eth0
+  165  sudo ifdown eth0
+  166  sudo nano /etc/network/interfaces
+  167  sudo ifdown eth0
+  168  sudo ifup eth0
+  169  ping www.google.com
+  170  sudo nano /etc/network/interfaces
+  171  sudo ifup eth0
+  172  sudo ifdown eth0
+  173  sudo ifup eth0
+  174  ifconfig
+  175  sudo nano /etc/network/interfaces
+  176  sudo ifdown enxb827eb58b3fa
+  177  sudo ifup enxb827eb58b3fa
+  178  sudo nano /etc/network/interfaces
+  179  clear all
+  180  sudo nano /etc/network/interfaces
+  181  sudo /etc/init.d/networking restart
+  182  sudo ifdown eth0
+  183  sudo ifup eth0
+  184  sudo nano /etc/network/interfaces
+  185  sudo ifdown enxb827eb58b3fa
+  186  sudo ifup enxb827eb58b3fa
+  187  ping www.google.com
+  188  clear
+  189  sudo apt-get install ros-kinetic-lms1xx
+  190  sudo ifconfig
+  191  ping www.google.com
+  192  clear
+  193  sudo apt-get install ros-kinetic-sick-scan
+  194  ls
+  195  df -
+  196  df -h
+  197  cd catkin_ws/
+  198  ls
+  199  cd src/
+  200  ls
+  201  cd
+  202  roscore
+  203  ifconfig
+  204  sudo ifdown enxb827eb58b3fa
+  205  sudo ifup enxb827eb58b3fa
+  206  ping www.google.com
+  207  sudo /etc/network/interfaces
+  208  sudo nano /etc/network/interfaces
+  209  sudo ifdown eth0
+  210  ifconfig
+  211  ping www.google.com
+  212  sudo nano /etc/lightdm/lightdm.conf.d
+  213  clear
+  214  sudo /etc/lightdm/lightdm.conf
+  215  sudo touch /etc/lightdm/lightdm.conf
+  216  sudo nano /etc/lightdm/lightdm.conf
+  217  rosnode ping /matlab_global_node_18751 
+  218  rostopic echo /Rosaria/pose
+  219  rostopic echo /RosAria/pose
+  220  rostopic echo /RosAria/sonar
+  221  clear
+  222  ifconfig
+  223  ip address show lo
+  224  ip address show wlan0
+  225  sudo ifconfig enxb827eb58b3fa 192.168.72.6 netmask 255.255.255.0
+  226  clear
+  227  ifconfig
+  228  ping www.google.com
+  229  ping 169.254.105.61
+  230  nc -z -v -w5 169.254.105.61 2112
+  231  rosnode list
+  232  roslaunch sick_scan sick_scan sick_lms_1xxx.launch hostname:=169.254.105.61
+  233  roslaunch sick_scan sick_lms_1xxx.launch hostname:=169.254.105.61
+  234  ifconfig
+  235  sudo route add default gw 192.168.72.1 eth0
+  236  sudo route add default gw 192.168.72.1 enxb827eb58b3fa
+  237  ifconfig
+  238  netstat –I
+  239  sudo nano /etc/network/interfaces
+  240  sudo systemctl restart networking
+  241  clear
+  242  ifconfig
+  243  sudo nano /etc/network/interfaces
+  244  sudo systemctl restart networking
+  245  ifconfig
+  246  nc -z -v -w5 169.254.105.61 2112
+  247  nc -v -w 1 169.254.105.61 8081
+  248  netcat -z -n -v 169.254.105.61 2112
+  249  clear
+  250  ifconfig
+  251  sudo systemctl restart networking
+  252  ifconfig
+  253  nc -z -v -w5 169.254.105.61 2112
+  254  ping 169.254.105.61
+  255  ping 169.254.105.61 --port 2112
+  256  ping 169.254.105.61 -port 2112
+  257  ping 169.254.105.61 2112
+  258  nc -vz 169.254.105.61 2112
+  259  ifconfig
+  260  ethtool enxb827eb58b3fa
+  261  sudo apt install ethtool
+  262  ifconfig
+  263  sudo nano /etc/network/interfaces
+  264  clear
+  265  cat /etc/network/interfaces
+  266  sudo nano /etc/dhcpcd.conf
+  267  cd /etc/
+  268  ls
+  269  cd dhcp/
+  270  ls
+  271  clear
+  272  cd
+  273  sudo nano /etc/network/interfaces
+  274  sudo ifdown enxb827eb58b3fa
+  275  sudo ifup enxb827eb58b3fa
+  276  ifconfig
+  277  sudo ip link set enxb827eb58b3fa up
+  278  ifconfig
+  279  sudo ip addr add 10.0.0.4/24 enxb827eb58b3fa
+  280  nano /etc/rc.local
+  281  sudo ip link set enxb827eb58b3fa up
+  282  ifconfig
+  283  rosnode list
+  284  rostopic list
+  285  rostopic info /cloud
+  286  rosnode ping /sick_lms_1xxx 
+  287  rostopic echo /cloud
+  288  rosnode ping /sick_lms_1xxx 
+  289  rostopic info /cloud
+  290  rosnode list
+  291  clear
+  292  sudo apt install ethtool
+  293  dpkg --config -a
+  294  dpkg --config-a
+  295  dpkg --reconfig-a
+  296  dpkg --reconfigre-a
+  297  dpkg --reconfigure-a
+  298  dpkg --reconfigure -a
+  299  dpkg-reconfigure -a
+  300  dpkg-reconfigure ethtool
+  301  sudo 
+  302  sudo dpkg-reconfigure ethtool
+  303  sudo dpkg --reconfigure -a
+  304  sudo apt install ethtool
+  305  ifconfig
+  306  sudo ethtool enxb827eb58b3fa
+  307  ifconfig
+  308  sudo nano /etc/network/interfaces
+  309  sudo systemctl restart networking
+  310  ifconfig
+  311  nc -z -v -w5 169.254.105.61 2112
+  312  ifconfig
+  313  sudo systemctl restart networking
+  314  ifconfig
+  315  rosnode
+  316  rosnode list
+  317  roslaunch sick_scan sick_lms_1xx.launch hostname:=192.168.72.8
+  318  ifconfig
+  319  ls
+  320  ping www.google.com
+  321  ifconfig
+  322  ls
+  323  cd catkin_ws/
+  324  ls
+  325  cd src
+  326  ls
+  327  cd ..
+  328  cd build/
+  329  ls
+  330  cd
+  331  clear
+  332  ifconfig
+  333  sudo systemctl restart networking
+  334  ifconfig
+  335  sudo systemctl restart networking
+  336  ifconfig
+  337  ping www.google.com
+  338  ifconfig
+  339  sudo systemctl restart networking
+  340  sudo ifconfig enxb827eb58b3fa 192.168.72.8 netmask 255.255.255.0
+  341  ifconfig
+  342  nc -z -v -w5 169.254.121.143 2112
+  343  nc -z -v -w5 192.168.1.2 2112
+  344  telnet 169.254.121.143 2112
+  345  nc -v -w 1 169.254.121.143 2112
+  346  nc -v -w 1 169.254.121.143 2111
+  347  ifconfig
+  348  clear
+  349  rosnode
+  350  rosnode list
+  351  ifconfig
+  352  sudo ethtool enxb827eb58b3fa
+  353  ping enxb827eb58b3fa 169.254.121.143
+  354  ping -i enxb827eb58b3fa 169.254.121.143
+  355  route -n
+  356  ping -I enxb827eb58b3fa 169.254.121.143
+  357  iwcinfig
+  358  iwconfig
+  359  sudo nano etc
+  360  sudo nano /etc/network/interfaces
+  361  sudo systemctl restart networking
+  362  ifconfig
+  363  ping www.google.com
+  364  clear
+  365  ping 169.254.121.143
+  366  ping 192.168.72.8
+  367  ping 192.168.0.2
+  368  clear
+  369  ping 192.168.0.2
+  370  nc -z -v -w5 192.168.0.2 2112
+  371  ifconfig
+  372  ping 169.254.143.76
+  373  ifconfig
+  374  sudo ethtool enxb827eb58b3fa
+  375  clear
+  376  rosnode list
+  377  rostopic list
+  378  rostopic info /cloud
+  379  rostopic echo /cloud
+  380  rostopic list
+  381  ping www.google.com
+  382  ifconfig
+  383  sudo ifconfig eth0 169.254.143.100 netmask 255.255.255.0
+  384  sudo ifconfig enxb827eb58b3fa 169.254.143.100 netmask 255.255.255.0
+  385  ifconfig
+  386  sudo route add default gw 169.254.143.1 enxb827eb58b3fa
+  387  ifconfig
+  388  sudo ethtool enxb827eb58b3fa
+  389  ping 169.254.143.76
+  390  rosnode list
+  391  roslaunch sick_scan sick_lms_1xx.launch hostname:=169.254.143.76
+  392  rosnode list
+  393  ifconfig
+  394  roslaunch sick_scan sick_lms_1xx.launch hostname:=169.254.143.76
+  395  ping www.google.com
+  396  ping 169.254.121.143
+  397  ping -I enxb827eb58b3fa 169.254.121.143
+  398  ping www.google.com
+  399  ifconfig
+  400  sudo ifconfig enxb827eb58b3fa 192.168.72.6 netmask 255.255.255.0
+  401  ifconfig
+  402  sudo tcpdump -ni enxb827eb58b3fa arp
+  403  nc -z -v -w5 169.254.121.143 2112
+  404  sudo ifconfig enxb827eb58b3fa 169.254.121.200 netmask 255.255.255.0
+  405  ifconfig
+  406  sudo systemctl restart networking
+  407  ifconfig
+  408  ping 169.254.121.143
+  409  nc -z -v -w5 169.254.121.143 2112
+  410  rosnode list
+  411  clear 
+  412  rosrun rosaria RosAria
+  413  ifconfig
+  414  sudo ifconfig enxb827eb58b3fa 169.254.143.100 netmask 255.255.255.0
+  415  ifconfig
+  416  ping 169.254.143.76
+  417  roslaunch sick_scan sick_lms_1xx.launch hostname:=169.254.143.76
+  418  rostopic list
+  419  rostopic echo /RosAria/battery_voltage
+  420  rostopic echo /RosAria/battery_recharge_state 
+  421  rostopic echo /RosAria/battery_state_of_charge 
+  422  rostopic echo /RosAria/battery_voltage 
+  423  ping www.google.com
+  424  roslaunch sick_scan sick_lms_1xxx.launch hostname:=169.254.143.76
+  425  sudo ifconfig enxb827eb58b3fa 169.254.143.100 netmask 255.255.255.0
+  426  ifconfig
+  427  roslaunch sick_scan sick_lms_1xx.launch hostname:=169.254.143.76
+  428  rosrun rosaria RosAria
+  429  sudo power off
+  430  sudo poweroff
+  431  rosnode list
+  432  rosrun rosaria RosAria
+  433  ifconfig
+  434  rosnode list
+  435  sudo nano .bashrc
+  436  sudo nano /.bashrc
+  437  sudo nano .bashrc
+  438  ping www.google.com
+  439  sudo shutdown
+  440  sudo shutdown now
+  441  sudo ifconfig enxb827eb58b3fa 169.254.143.100 netmask 255.255.255.0
+  442  ping 
+  443  ping 169.254.143.76
+  444  roslaunch sick_scan sick_lms_1xx.launch hostname:=169.254.143.76
+  445  rosrun rosaria RosAria
+  446  sudo shutdown now
+  447  rosnode list
+  448  rostopic info /RosAria/pose
+  449  ifconfig
+  450  rosnode list
+  451  rosrun rosaria RosAria
+  452  rosnode list
+  453  rosrun rosaria RosAria
+  454  rosrun rosaria RosAria(Vicosa_4453)
+  455  rosrun rosaria Vicosa_4453
+  456  rosrun rosaria RosAria 
+  457  ifconfig
+  458  rosnode list
+  459  /rosout -->master
+  460  rosnode list (/rosout --> master)
+  461  rosnode list 
+  462  rosrun rosaria RosAria
+  463  ifconfig
+  464  rosnode list
+  465  rosrun rosaria RosAria 192.168.0.148
+  466  rosnode list
+  467  rosrun rosaria RosAria 192.168.0.148
+  468  rosnode list
+  469  rosrun rosaria RosAria 192.168.0.148
+  470  rosrun rosaria RosAria 192.168.0.158
+  471  rosrun rosaria RosAria 192.168.0.148
+  472  rosrun rosaria RosAria
+  473  rosrun rosaria RosAria 192.168.0.148
+  474  rosrun rosario RosArio 192.168.0.148
+  475  rosaria RosAria 192.168.0.148
+  476  rosrun rosaria RosAria 192.168.0.148
+  477  rosnode list
+  478  ifconfig
+  479  rosrun rosaria RosAria 192.168.0.148
+  480  rosrun rosaria RosAria 192.168.0.148
+  481  rosrun rosaria RosAria 192.168.0.148
+  482  nano .bashrc
+  483  exit
+  484  rosrun rosaria RosAria 192.168.0.148
+  485  nano .bashrc
+  486  rosrun rosaria RosAria 192.168.0.148
+  487  nano .bashrc
+  488  rosrun rosaria RosAria 192.168.0.148
+  489  rosnode list
+  490  rosrun rosaria RosAria
+  491  rosrun rosaria RosAria 192.168.0.148
+  492  nano .bashrc
+  493  roscore
+  494  roskill
+  495  roscore info
+  496  roscore
+  497  rosnode list
+  498  roscore
+  499  exit
+  500  rosnode list
+  501  rosrun rosaria RosAria 192.168.0.148
+  502  exit
+  503  rosnode list
+  504  nano .bashrc
+  505  rosparam list
+  506  rosparam
+  507  rosnode list
+  508  rostopic list
+  509  exit
+  510  nano .bashrc
+  511  exit
+  512  rosnode list
+  513  rosrun rosaria RosAria 192.168.0.148
+  514  exit
+  515  rosrun rosaria RosAria 192.168.0.148
+  516  nano .bashrc
+  517  exit
+  518  rosrun rosaria RosAria 192.168.0.148
+  519  exit
+  520  rosrun rosaria RosAria 192.168.0.148
+  521  rosshutdown
+  522  roshutdown
+  523  clear
+  524  exit
+  525  killall -9 roscore
+  526  rosnode list
+  527  exit
+  528  rosnode list
+  529  nano .bashrc
+  530  exit
+  531  rosnode list
+  532  nano .bashrc
+  533  exit
+  534  rosnode list
+  535  roscore &
+  536  rosnode list
+  537  roscore & 
+  538  rosnode list
+  539  nano .bashrc
+  540  rosnode list
+  541  exit
+  542  rosnode list
+  543  exit
+  544  rosrun rosaria RosAria 192.168.0.148
+  545  exit
+  546  rosrun rosaria RosAria 192.168.0.148
+  547  exit
+  548  rosnode list
+  549  rosrun rosaria RosAria 192.168.0.148
+  550  exit
+  551  rosrun rosaria RosAria 192.168.0.148
+  552  nano .bahrc
+  553  nano .bashrc
+  554  exit
+  555  rosrun rosaria RosAria 192.168.0.148
+  556  rosnode list
+  557  nano .bashrc
+  558  exit
+  559  rosrun rosaria RosAria 192.168.0.148
+  560  nano .bashrc
+  561  exit
+  562  rosrun rosaria RosAria 192.168.0.148
+  563  nano .bashrc
+  564  exit
+  565  rosrun rosaria RosAria 192.168.0.148
+  566  nano .bashrc
+  567  exit
+  568  rosrun rosaria RosAria 192.168.0.148
+  569  nano .bashrc
+  570  rostopic list
+  571  rosnode list
+  572  rostopic list
+  573  rosnode list
+  574  rostopic list
+  575  rosrun rosaria RosAria 192.168.0.148
+  576  rosrun rosaria RosAria:=teste
+  577  rosrun rosaria RosAria namespace:=teste
+  578  rosrun rosaria RosAria _ns=teste
+  579  ls
+  580  cd catkin_ws/
+  581  ls
+  582  cd src/rosaria/
+  583  ls
+  584  chmod +x pioneer.launch 
+  585  ls
+  586  cd ..
+  587  cd
+  588  roslaunch rosaria pioneer.launch namespace namespace namespace namespace 
+  589  roslaunch rosaria pioneer.launch
+  590  rosrun rosaria RosAria name:=teste
+  591  rosrun rosaria RosAria name:="teste"
+  592  rosrun rosaria RosAria "name":=teste
+  593  roslaunch rosaria pioneer.launch
+  594  roslaunch rosaria pioneer.launch name:=teste
+  595  roslaunch rosaria pioneer.launch namespace:=teste
+  596  roslaunch rosaria pioneer.launch name:=teste
+  597  roslaunch rosaria pioneer.launch
+  598  roslaunch rosaria pioneer.launch ID:=2
+  599  ifconfig
+  600  nano .bashrc
+  601  ifconfig
+  602  roslaunch rosaria pioneer.launch ID:=2
+  603  ifconfig
+  604  sudo apt-get install ros-kinect-sick-scan
+  605  sudo ifconfig enxb827eb195df0 169.254.143.100 netmask 255.255.255.0
+  606  ifconfig
+  607  roslaunch sick_scan sick_lms_1xx.launch hostname:=169.254.143.76
+  608  roslaunch rosaria pioneer.launch ID:=1
+  609  ifconfig
+  610  sudo ifconfig enxb827eb195df0 169.254.143.100 netmask 255.255.255.0
+  611  ifconfig
+  612  sudo ifconfig enxb827eb195df0 169.254.143.100
+  613  roslaunch sick_scan sick_lms_1xx.launch hostname:=169.254.143.76
+  614  sudo ifconfig enxb827eb195df0 169.254.143.100
+  615  roslaunch sick_scan sick_lms_1xx.launch hostname:=169.254.143.76
+  616  ifconfig
+  617  sudo ifconfig enxb827eb195df0 169.254.143.100
+  618  ifconfig
+  619  sudo ifconfig enxb827eb195df0 169.254.143.100 netmask 255.255.255.0
+  620  ifconfig
+  621  sudo ifconfig enxb827eb195df0 169.254.143.100
+  622  roslaunch sick_scan sick_lms_1xx.launch hostname:=169.254.143.76
+  623  sudo ifconfig enxb827eb195df0 169.254.143.100
+  624  roslaunch sick_scan sick_lms_1xx.launch hostname:=169.254.143.76
+  625  sudo ifconfig enxb827eb195df0 169.254.143.100
+  626  roslaunch sick_scan sick_lms_1xx.launch hostname:=169.254.143.76
+  627  roslaunch rosaria pioneer.launch ID:=1
+  628  roslaunch sick_scan sick_lms_1xx.launch hostname:=169.254.143.76
+  629  sudo ifconfig enxb827eb195df0 169.254.143.100
+  630  roslaunch sick_scan sick_lms_1xx.launch hostname:=169.254.143.76
+  631  roslaunch rosaria pioneer.launch ID:=1
+  632  roslaunch rosaria pioneer.launch ID:=2
+  633  vim rosaria pioneer.launch ID:=2
+  634  gedit rosaria pioneer.launch ID:=2
+  635  sudo apt install gedit
+  636  gedit rosaria pioneer.launch ID:=2
+  637  roslaunch rosaria pioneer.launch ID:=2
+  638  gedit rosaria pioneer.launch
+  639  roscd rosaria pioneer.launch
+  640  lx
+  641  ls
+  642  cd catkin_ws/
+  643  ls
+  644  cd src/
+  645  ls
+  646  cd rosaria/
+  647  ls
+  648  gedit pioneer.launch 
+  649  gedit .pioneer.launch 
+  650  vim pioneer.launch 
+  651  ls
+  652  cd
+  653  cd catkin_ws/
+  654  cd src/
+  655  cd rosaria/
+  656  vim RosAria.cpp 
+  657  cd
+  658  vim .bashrc
+  659  roslaunch rosaria pioneer.launch ID:=2
+  660  vim .bashrc
+  661  exit
+  662  roslaunch rosaria pioneer.launch ID:=2
+  663  vim .bashrc
+  664  roslaunch rosaria pioneer.launch ID:=2
+  665  exit
+  666  roslaunch rosaria pioneer.launch ID:=2
+  667  vim .bashrc
+  668  roslaunch rosaria pioneer.launch ID:=2
+  669  nano .bashrc
+  670  vim .bashrc
+  671  exit
+  672  nano .bashrc
+  673  vim .bashrc
+  674  exit
+  675  roslaunch rosaria pioneer.launch ID:=2
+  676  exit
+  677  roslaunch rosaria pioneer.launch ID:=2
+  678  vim .bashrc
+  679  exit
+  680  roslaunch rosaria pioneer.launch ID:=2
+  681  exit
+  682  vim .bashrc
+  683  exit
+  684  roslaunch rosaria pioneer.launch ID:=2
+  685  exit
+  686  vim .bashrc
+  687  roslaunch rosaria pioneer.launch ID:=2
+  688  ifconfig
+  689  vim .bashrc
+  690  roslaunch rosaria pioneer.launch ID:=2
+  691  vim .bashrc
+  692  exit
+  693  rosinit
+  694  roscore
+  695  cd catkin_ws/
+  696  sudo dphys-swapfile swapoff
+  697  sudo nano /etc/dphys-swapfile
+  698  sudo dphys-swapfile setup
+  699  swapoff -v /swapfile
+  700  rm /swapfile
+  701  exit
+  702  top
+  703  roslaunch rosaria pioneer.launch ID:=2
+  704  rospackage info
+  705  rospack info
+  706  rospack 
+  707  rospack help
+  708  rospack list
+  709  cd catkin_ws/
+  710  cd src/
+  711  cd rosaria/
+  712  ls
+  713  rosdep update
+  714  [pioneer.launch] is neither a launch file in package [rosaria] nor is [rosaria] a launch file name
+  715  roslaunch rosaria pioneer.launch ID:=2
+  716  rosrun rosaria RosAria
+  717  rostopic list
+  718  sudo apt-get install ros-noetic-lms1xx
+  719  sudo apt-get install ros-melodic-lms1xx
+  720  sudo apt-get install ros-kinectic-lms1xx
+  721  sudo apt-get install ros-kinetic-lms1xx
+  722  roslaunch rosaria pioneer.launch ID:=2
+  723  rosrun rosaria RosAria
+  724  rospack
+  725  rospack help
+  726  rospack cflags
+  727  rospack cflags-only-I
+  728  rospack cflags-only-others
+  729  rospack cflags-only-other
+  730  rosrun rosaria RosAria ID:=P2
+  731  list
+  732  ls
+  733  nano RosAria
+  734  nano RosAria.cpp
+  735  roscore
+  736  rosrun rosaria RosAria
+  737  rostopic echo rosout
+  738  roslaunch sick_scan sick_lms_1xx.launch hostname:=169.254.143.76:2112
+  739  rosrun lms1xx find_sick
+  740  roslaunch sick_scan sick_lms_1xx.launch hostname:=169.254.143.*:2112
+  741  roslaunch sick_scan sick_lms_1xx.launch hostname:=169.254.143.76:2111
+  742  roslaunch lms1xx LMS1xx.launch host:=169.254.143.76
+  743  roslaunch sick_scan sick_lms_1xx.launch hostname:=169.254.143.76
+  744  nc -z -v -w5 $SCANNERIPADDRESS 2112
+  745  nc -z -v -w5 $169.254.143.76 2112
+  746  nc -z -v -w5 169.254.143.76 2112
+  747  ifconfig|grep "inet addr"
+  748  export ROS_DISTRO=kinetic
+  749  $ROS_DISTRO
+  750  source /opt/ros/$ROS_DISTRO/setup.bash
+  751  mkdir -p ~/sick_scan_ws/src/
+  752  cd ~/sick_scan_ws/src/
+  753  git clone https://github.com/SICKAG/sick_scan2.git
+  754  cd ..
+  755  colcon build
+  756  sudo apt-get install colcon
+  757  sudo apt install colcon
+  758  catkin_make
+  759  make
+  760  cmake -j4
+  761  ls
+  762  cd src
+  763  ls
+  764  make
+  765  cd sick_scan2/
+  766  ls
+  767  sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu `lsb_release -cs` main" > /etc/apt/sources.list.d/ros-latest.list'
+  768  sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
+  769  sudo apt update
+  770  cd ..
+  771  colcon build
+  772  pip install colcon
+  773  ifconfig
+  774  sudo cp /etc/dhcpcd.conf /etc/dhcdcp.backup
+  775  sudo apt install dhcpcd
+  776  sudo apt install dhcpcd5
+  777  sudo nano /etc/dhcpcd.conf
+  778  sudo reboot
+  779  dhcpcd
+  780  sudo nano /etc/dhcpcd.conf
+  781  dhcpcd
+  782  dhcpcd -help
+  783  dhcpcd help
+  784  kill dhcpd
+  785  dhcpd
+  786  dhcpd5
+  787  dhcpcd
+  788  exit
+  789  nc -z -v -w5 $169.254.143.76 2112
+  790  roslaunch sick_scan sick_lms_1xx.launch hostname:=169.254.143.76
+  791  ping 196.254.143.76
+  792  ping 169.254.143.76
+  793  ping 196.254.143.76:2112
+  794  roslaunch sick_scan sick_lms_1xx.launch hostname:=169.254.143.76:2112
+  795  roslaunch sick_scan sick_lms_1xx.launch hostname:=169.254.143.76
+  796  ping 196.254.143.76:2112
+  797  ping 196.254.143.76
+  798  ping 169.254.143.76
+  799  ping 10.11.44.124
+  800  ifconfig
+  801  sudo nano /etc/dhcpcd.conf
+  802  y
+  803  dhcpcd
+  804  sudo dhcpd
+  805  sudo -su
+  806  sudo -s
+  807  ping 10.11.44.124
+  808  ping 169.254.143.76
+  809  roslaunch sick_scan sick_lms_1xx.launch hostname:=169.254.143.76
+  810  ifconfig -a
+  811  roslaunch sick_scan sick_lms_1xx.launch hostname:=192.169.0.212
+  812  roslaunch lms1xx LMS1xx.launch host:=192.168.0.212
+  813  apt-get update
+  814  sudo apt-get update
+  815  ln -s /dev/null /etc/systemd/network/99-default.link
+  816  sudo ln -s /dev/null /etc/systemd/network/99-default.link
+  817  ifconfig -a
+  818  roslaunch sick_scan sick_lms_1xx.launch hostname:=169.254.143.0.76
+  819  sudo reboot
+  820  ifconfig
+  821  clc
+  822  ifconfig
+  823  sudo nano /etc/dhcpcd.conf
+  824  ifconfig
+  825  sudo reboot
+  826  pifi
+  827  pifi list
+  828  pifi list seen
+  829  ifconfig
+  830  nc -z -v -w5 $169.254.143.76 2112
+  831  nc -z -v -w5 169.254.143.76 2112
+  832  nc -z -v -w5 0.0.0.0 2112
+  833  netstat -t -l -n
+  834  127.0.0.1:631
+  835  roslaunch sick_scan sick_lms_1xx.launch hostname:=127.0.0.1:631
+  836  Sudo lshw -C network
+  837  sudo lshw -C network
+  838  roslaunch sick_scan sick_lms_1xx.launch hostname:=169.254.143.76
+  839  sudo netplan apply
+  840  sudo apt-get install netplan
+  841  sudo vim /etc/dhcp/dhclient.conf
+  842  sudo vim /etc/network/interfaces
+  843  sudo nano /etc/network/interfaces
+  844  sudo reboot
+  845  ifconfig
+  846  sudo vim /etc/network/interfaces
+  847  sudo nano /etc/network/interfaces
+  848  ifconfig
+  849  ip addr
+  850  roslaunch sick_scan sick_lms_1xx.launch hostname:=169.254.143.255
+  851  nc -z -v -w5 192.168.0.111 2112
+  852  nc -z -v -w5  192.168.0.127 2112
+  853  sudo apt install gnome-disk-utility
+  854  ip route add 169.254.143.76/24 dev eth0
+  855  ifconfig
+  856  ip route add 169.254.143.76/24 dev enxb827eb195df0
+  857  sudo ip route add 169.254.143.76/24 dev enxb827eb195df0
+  858  ping enxb827eb195df0
+  859  ping -I enxb827eb195df0 0.0.0.0
+  860  pifi
+  861  pifi status
+  862  ifconfig
+  863  sudo lsof -i -P -n | grep LISTEN
+  864  iptables -I INPUT
+  865  iptables -I INPUT -p tcp --dport 12345 --syn -j ACCEPT
+  866  ip addr
+  867  roslaunch sick_scan sick_lms_1xxx.launch hostname:=169.254.143.76
+  868  sudo tcpdump host 169.254.143.76
+  869  rostopic echo rosout
+  870  ping 169.245.143.76
+  871  ping 169.254.143.76
+  872  ping 169.254.143.255
+  873  ping 169.254.143.255 -b
+  874  roscd lms1xx
+  875  sudo vi launch/LMS1xx.launch
+  876  sudo nano launch/LMS1xx.launch
+  877  roslaunch lms1xx LMS1xx.launch
+  878  cd ../../../
+  879  cd ..
+  880  ls
+  881  cd ~
+  882  ls
+  883  cd ..
+  884  cd ~
+  885  cat /ect/network/interfaces
+  886  cd /ect/network/
+  887  cd /etc
+  888  ls
+  889  cd network/
+  890  ls
+  891  cd interfaces.d/
+  892  ls
+  893  cd ..
+  894  cd interfaces
+  895  nano interfaces
+  896  sudo nano interfaces
+  897  sudo reboot
+  898  ifconfig
+  899  ping 192,168.0.111
+  900  ifconfig
+  901  ping 
+  902  ping 192,168.0.111
+  903  nano /etc/network/interfaces
+  904  sudo nano /etc/network/interfaces
+  905  sudo reboot
+  906  ip link
+  907  lxplug-network
+  908  sudo apt-get install dhcpcd-ui
+  909  sudo apt-get install lxplug-network
+  910  sudo nano /etc/dhcpcd.conf
+  911  sudo reboot
+  912  rosnode list
+  913  rostopic list
+  914  rostopic info /turtle1/cmd_vel 
+  915  rostopic list
+  916  rostopic info /RosAria/cmd_vel 
+  917  rosrun turtlesim turtle_teleop_key 
+  918  rosrun turtlesim turtle_teleop_key /turtle1/cmd_vel:=/RosAria/cmd_vel
+  919  rostopic list
+  920  rosnode list
+  921  rosrun rosaria RosAria
+  922  rosrun rosaria RosAria RosAria:=P2
+  923  ifconfig
+  924  nano .bashrc
+  925  vim .bashrc
+  926  rostopic echo /RosAria/cmd_vel 
+  927  rostopic info /RosAria/cmd_vel 
+  928  vim .bashrc
+  929  lsb release -a
+  930  lsb-release -a
+  931  lsb_release -a
+  932  roscore
+  933  rosversion
+  934  roscore -v
+  935  rospackage
+  936  clear
+  937  ping google.com
+  938  ifconfig -a
+  939  ifconfig
+  940  ping 192.168.0.111
+  941  sudo systemctl disable magni-base
+  942  pifi
+  943  pifi statys
+  944  pifi status
+  945  date
+  946  pifi list
+  947  pifi list seen
+  948  ifconfig
+  949  service -status--all
+  950  service --status-all
+  951  sudo initctl list
+  952  systemctl
+  953  clear
+  954  systemctl status nginx
+  955  clear
+  956  systemctl status nginx
+  957  systemctl stop nginx
+  958  clear
+  959  ifconfig
+  960  netstat
+  961  clear
+  962  netstat -a
+  963  clear
+  964  ifconfig
+  965  ping 192.168.0.111
+  966  sudo systemctl disable nginx
+  967  ifconfig -a
+  968  watch ps 
+  969  nano ~/.bashrc
+  970  sudo nano ~/.bashrc
+  971  rosria
+  972  rosrun rosaria RosAria
+  973  netstat -a
+  974  clear
+  975  netstat -a
+  976  watch netstat
+  977  upstart
+  978  sudo systemctl --all list-unit-files 
+  979  pifi
+  980  pifi status
+  981  ifconfig
+  982  cd usr
+  983  ls
+  984  cd usr
+  985  sudo su
+  986  cd catkin_ws/
+  987  ls
+  988  cd src
+  989  ls
+  990  cd rosaria/
+  991  ls
+  992  cd ..
+  993  ls
+  994  cd build
+  995  ls
+  996  cd ..
+  997  ls
+  998  cd ..
+  999  ls
+ 1000  cd Downloads/
+ 1001  ls
+ 1002* 
+ 1003  cp  ~/.bash_history /log_hist
+ 1004  sudo cp  ~/.bash_history /log_hist
+ 1005  cd  /
+ 1006  ls
+ 1007  sudo cp  ~/.bash_history /log_hist.txt
+ 1008  sudo nano log_HIST
+ 1009  sudo nano log_hist
+ 1010  sudo cp log_hist /home/ubuntu/Desktop/magia_negra_nao_mexe/log_hist_08_11_2021
+ 1011  cd /home/ubuntu/Desktop/magia_negra_nao_mexe/
+ 1012  ls
+ 1013  nano log_hist_08_11_2021 
+ 1014  sudo nano log_hist_08_11_2021 
+ 1015  sudo ~/.bash_history /home/ubuntu/Desktop/magia_negra_nao_mexe/bash_hist_08_11_2021
+ 1016  sudo ~/.bash_history > /home/ubuntu/Desktop/magia_negra_nao_mexe/bash_hist_08_11_2021.txt
+ 1017  ~/.bash_history > /home/ubuntu/Desktop/magia_negra_nao_mexe/bash_hist_08_11_2021.txt
+ 1018  ~/.bash_history > bash_hist_08_11_2021.txt
+ 1019  sudo ~/.bash_history > bash_hist_08_11_2021.txt
+ 1020  sudo su
+ 1021  clear
+ 1022  cd ~
+ 1023  clear
+ 1024  ls
+ 1025  ~/.bash_history
+ 1026  sudo ~/.bash_history
+ 1027  sudo nano ~/.bash_history
+ 1028  history
+ 1029  clear
+ 1030  history > /home/ubuntu/Desktop/magia_negra_nao_mexe/bash_hist_08_11_2021.txt

@@ -1,0 +1,55 @@
+    1  mkswap /dev/sdx
+    2  CONF_SWAPSIZE=1024
+    3  sudo dphys-swapfile swapon
+    4  sudo nano /etc/dphys-swapfile
+    5  swapon --show
+    6  sudo fallocate -l 1G /swapfile
+    7  ls -lh /swapfile
+    8  sudo chmod 600 /swapfile
+    9  sudo mkswap /swapfile
+   10  sudo swapon /swapfile
+   11  sudo swapon --show
+   12  free -h
+   13  exit
+   14  clear
+   15  cd ..
+   16  cd user
+   17  clear
+   18  cd usr
+   19  ls
+   20  cd sbin
+   21  ls
+   22  cd magni-base 
+   23  cd magni-base
+   24  cd /magni-base
+   25  clear
+   26  ls
+   27  cd magni-base 
+   28  nano magni-base
+   29  y
+   30  cd ../..
+   31  clear
+   32  ls
+   33  cd network
+   34  cd ..
+   35  ls
+   36  cd usr
+   37  ls
+   38  cd ..
+   39  cd etc/network
+   40  ls
+   41  cd interfaces
+   42  ls
+   43  nano interfaces
+   44  ifconfig
+   45  ping google.com
+   46  ifconfig
+   47  nano interfaces
+   48  ifconfig
+   49  ping google.com
+   50  sudo systemctl disable magni-base
+   51  clear
+   52  exit() exit
+   53  clear
+   54  exit
+   55  history > /home/ubuntu/Desktop/magia_negra_nao_mexe/SUDO_bash_hist_08_11_2021.txt
